@@ -15,7 +15,7 @@ Then the command line must include -m [mode] or --mode [mode] with valid modes b
 
 ## Minimum Spanning Tree Mode
 
-This MST has been implemented with the rule that a line can not pass from the 3rd quadrant to the 1st, 2nd, or 3rd quadrant without first going through the border (i.e. (0, -z) or (-z, 0) where z is a positive integer). This solution uses Prim's Algorithm.
+This MST has been implemented with the rule that a line can not pass from the 3rd quadrant to the 1st, 2nd, or 3rd quadrant without first going through the border (i.e. (0, -z) or (-z, 0) where z is a non-negative integer). This solution uses [Prim's Algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm).
 
 ## Fast Travelling Salesperson Problem Solution
 
