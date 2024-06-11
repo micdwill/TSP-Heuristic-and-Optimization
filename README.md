@@ -3,6 +3,7 @@
 Given an input of vertices, [drone.cpp](https://github.com/micdwill/TSP-Heuristic-and-Optimization/blob/master/drone.cpp) contains an optimal 
 solution based on Euclidean distance for an MST, a heursitic for a TSP, and an optimal solution for a TSP. Input file format is as follows:
 
+```markdown
 [# of vertices]  
 [x component integer] [y component integer]  
 [x component integer] [y component integer]  
@@ -10,6 +11,7 @@ solution based on Euclidean distance for an MST, a heursitic for a TSP, and an o
 .  
 .  
 [x component integer] [y component integer]
+```
 
 Then the command line must include -m [mode] or --mode [mode] with valid modes being MST for the minimum spanning tree solution, FASTTSP for the travelling salesperson heuristic solution, and OPTTSP for the optimal travelling salesperson solution.
 
