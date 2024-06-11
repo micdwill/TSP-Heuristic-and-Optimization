@@ -21,7 +21,7 @@ This MST has been implemented with the rule that a line can not pass from the 3r
 
 ## Fast Travelling Salesperson Problem Mode
 
-This heuristic uses [arbitrary insertion](https://www2.isye.gatech.edu/~mgoetsch/cali/VEHICLE/TSP/TSP013__.HTM) followed by [2-opt](https://en.wikipedia.org/wiki/2-opt#:~:text=The%20main%20idea%20behind%20it,well%20as%20many%20related%20problems.) for an n-squared implementation. It should be noted that the second for loop in the 2-opt does not iterate through every vertex, only the first 30. This largely improves complexity.
+This heuristic uses [arbitrary insertion](https://www2.isye.gatech.edu/~mgoetsch/cali/VEHICLE/TSP/TSP013__.HTM) followed by [2-opt](https://en.wikipedia.org/wiki/2-opt#:~:text=The%20main%20idea%20behind%20it,well%20as%20many%20related%20problems.) for an n-squared implementation. It should be noted that the second for loop in the 2-opt does not iterate through every vertex, only the first 30. This largely improves time complexity.
 
 ## Optimal Travelling Salesperson Problem Mode
 
